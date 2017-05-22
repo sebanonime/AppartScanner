@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 
@@ -9,13 +10,18 @@ namespace Appart
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Start app");
+            Logger.Info("Start AppartScanner");
 
+            
             var apartWeb = new AppartWeb();
-            var allNewAppart = apartWeb.RetrieveAllAppart("www.century21.fr");
+            var allNewAppart = apartWeb.RetrieveAllAppart(ConfigLoader.WebSiteTest);
 
             DisplayResult(apartWeb, allNewAppart);
-            SaveInFile(apartWeb.AppartInCache);
+
+            if (!ConfigLoader.TestMode)
+            {
+                SaveInFile(apartWeb.AppartInCache);
+            }
 
             Console.ReadLine();
         }

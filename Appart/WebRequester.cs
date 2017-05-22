@@ -66,8 +66,9 @@ namespace Appart
 
                 return FullPage;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
+                Logger.Error($"WebRequester exception : {ex.Message} on url {Url}");
                 Console.WriteLine("exception: " + ex.Message);
                 return string.Empty;
             }            

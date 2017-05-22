@@ -25,6 +25,7 @@ namespace Appart
 
         public AppartWeb()
         {
+            Logger.Debug("Start AppartWeb");
             var configLoader = new ConfigLoader();
             this.config = configLoader.LoadConfigFile();
 
@@ -53,15 +54,25 @@ namespace Appart
         {
             var url = config.SearchResultUrl;
             this.webSiteHost = config.SearchResultUrl.GetHost();
-            //this.adapter = this.adapterFactory[this.webSiteHost];
             var allAppartOfWebSite = new List<Appartement>();
 
             int pageNbr = 1;
             while (true)
             {
                 var urlWithPage = url.Replace("%PAGE_NBR%", pageNbr.ToString());
+                Logger.Info($"Search page {pageNbr} in {urlWithPage}");
                 Console.Write(" page {0}: ", pageNbr);
                 var webPage = WebRequester.SendHttpRequest(urlWithPage, config.Encoding);
+                if (string.IsNullOrEmpty(webPage))
+                {
+                    Logger.Error($"Search result page failed for {urlWithPage}");
+                }
+                else
+                {
+                    Logger.Info($"Search result page OK for {urlWithPage}");
+                }
+                
+
                 if (string.IsNullOrEmpty(webPage))
                 {
                     break;
@@ -81,7 +92,10 @@ namespace Appart
                 allAppartOfWebSite.AddRange(allAppartOfWebPage);
                 this.AppartInCache.AddRange(allAppartOfWebPage);
 
-                // Console.WriteLine("Page {0} finished", pageNbr);
+                if (ConfigLoader.TestMode)
+                {
+                    break;
+                }
 
                 if (url.Contains("%PAGE_NBR%"))
                 {
@@ -104,28 +118,45 @@ namespace Appart
             int appartFound = 0;
             while (!string.IsNullOrEmpty(detailWebPageUrl))
             {
-                detailWebPageUrl = config.Adapter.GetDetailUrl(ref webPage).AddHostIfMissing(url);
+                detailWebPageUrl = config.Adapter.GetDetailUrl(ref webPage).AddHostIfMissing(url);                
                 if (config.Adapter.PageEnded(webPage))
                 {
                     break;
                 }
 
-                if (!string.IsNullOrEmpty(detailWebPageUrl) && !allAppart.Any(o => o.UrlDetail == detailWebPageUrl))
+                if (!string.IsNullOrEmpty(detailWebPageUrl))
                 {
-                    appartFound++;
-                    if (!this.AppartExistInCache(detailWebPageUrl))
-                    {
-                        if (this.TryRetrieveAppartInfo(detailWebPageUrl, config, out Appartement appart))
+                    Logger.Debug($"Detail Web Page Url : {detailWebPageUrl}");
+                    if (!allAppart.Any(o => o.UrlDetail == detailWebPageUrl))
+                    {                        
+                        appartFound++;
+                        if (!this.AppartExistInCache(detailWebPageUrl))
                         {
-                            //if (appart.MatchCriteria())
+                            if (this.TryRetrieveAppartInfo(detailWebPageUrl, config, out Appartement appart))
                             {
-                                allAppart.Add(appart);
+                                //if (appart.MatchCriteria())
+                                {
+                                    allAppart.Add(appart);
+                                }
                             }
+                        }
+                        else
+                        {
+                            Logger.Debug("Appart already in cache");
                         }
                     }
                 }
-                
+                else
+                {
+                    Logger.Error($"Detail Web Page Url not found");
+                }
+
+                if (ConfigLoader.TestMode)
+                {
+                    break;
+                }
             }
+
             Console.Write($" {allAppart.Count} new Appart on {appartFound}");
             return appartFound > 0;
         }
@@ -140,10 +171,12 @@ namespace Appart
             var webPage = WebRequester.SendHttpRequest(url, config.Encoding);
             if (string.IsNullOrEmpty(webPage))
             {
+                Logger.Error("Detail web page not found");
                 appart = null;
                 return false;
             }
 
+            Logger.Info($"Detail web page found: {url}");
             appart = new Appartement();
             appart.ToCheck = true;
             appart.WebSite = url.GetHost();

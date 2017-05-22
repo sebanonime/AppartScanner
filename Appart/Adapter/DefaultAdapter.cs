@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,11 +30,25 @@ namespace Appart.Adapter
 
         public virtual void SetAppartInfo(Appartement appart, string webPage, string url)
         {
+            var fullWebPage = webPage;
             foreach (var item in this.agenceConfig.SearchItems.Values)
             {
                 if (!string.IsNullOrEmpty(item.Begin) && !string.IsNullOrEmpty(item.End))
                 {
+                    Logger.Debug($"{appart.WebSite}: Search {item.Key} between '{item.Begin}' and '{item.End}'. Url={url}");
                     var searchResu = webPage.SearchBetween(@item.Begin, @item.End, out webPage).CleanText();
+
+                    if (string.IsNullOrEmpty(searchResu))
+                    {
+                        Logger.Error($"   -{item.Key} not found");
+                        File.WriteAllText($"WebPage-{appart.WebSite}.txt", fullWebPage);
+                    }
+                    else
+                    {
+                        Logger.Debug($"   -{item.Key}={searchResu}");
+                    }
+                    
+
                     switch (item.Key)
                     {
                         case "Ville":

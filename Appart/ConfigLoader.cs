@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Appart.Adapter;
+using System.Configuration;
 
 namespace Appart
 {
@@ -43,6 +44,15 @@ namespace Appart
 
     public class ConfigLoader
     {
+        public static string WebSiteTest { get; }
+
+        public static bool TestMode => !string.IsNullOrEmpty(WebSiteTest);
+
+        static ConfigLoader()
+        {
+            WebSiteTest = ConfigurationManager.AppSettings["WebSiteTest"];
+        }
+
         public List<AgenceConfig> LoadConfigFile()
         {
             var configs = new List<AgenceConfig>();

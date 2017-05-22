@@ -142,6 +142,7 @@ namespace Appart
             if (string.IsNullOrEmpty(Source))
             {
                 remainingPage = null;
+                Logger.Debug("SearchBetween: source is empty");
                 return "";
             }
 
@@ -151,6 +152,7 @@ namespace Appart
             if (debut == -1)
             {
                 remainingPage = null;
+                Logger.Debug("SearchBetween: Begin string not found");
                 return "";
             }
 
@@ -160,7 +162,10 @@ namespace Appart
             {
                 fin = Source.IndexOf(strFin, debut + StrDebut.Length);
                 if (fin == -1)
+                {
+                    Logger.Debug("SearchBetween: End string not found");
                     return "";
+                }
             }
             remainingPage = Source.Substring(fin);
             var resu = Source.Substring(debut + StrDebut.Length, fin - (debut + StrDebut.Length));
