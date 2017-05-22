@@ -1,0 +1,26 @@
+﻿##Adapter
+WithSearchBetween
+##Encoding
+UTF-8
+##SearchResultUrl
+http://www.lagenceduchateau.com/a-vendre/%PAGE_NBR%
+##DetailUrl
+<h1 itemprop="name">
+">
+##EndOfPage
+
+##Ville
+Code postal <span class="valueInfos">
+</span>
+##Surface
+Surface loi Carrez (m²) <span class="valueInfos">
+</span>
+##NbrChambre
+Nombre de chambre(s) <span class="valueInfos">
+</span>
+##NbrPiece
+Nombre de pièces <span class="valueInfos">
+</span>
+##Prix
+Prix de vente honoraires TTC inclus <span class="valueInfos">
+€</span>

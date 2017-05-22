@@ -1,0 +1,25 @@
+﻿##Adapter
+Default
+##Encoding
+Default
+##SearchResultUrl
+http://www.bsi94.com/bsi-recherche-immobiliere.php
+##DetailUrl
+/bsi-annonce-immobilier.php?
+
+##EndOfPage
+
+##Ville
+</i> Ville : 
+</li>
+##Surface
+</i> Surface : 
+ m&sup2;</li>
+##NbrPiece
+</i> Nb Pièces :
+</li>
+##Prix
+</i> Prix : 
+<sup
+##NbrChambre
+

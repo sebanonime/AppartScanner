@@ -1,0 +1,26 @@
+﻿##Adapter
+Default
+##Encoding
+UTF-8
+##SearchResultUrl
+http://www.properties-v.com/liste-biens.php?ville=&type_bien=&budget=2&surface=1&trier_par=&page=%PAGE_NBR%
+##DetailUrl
+property-detail.php?
+
+##EndOfPage
+Mentions légales & Crédits
+##Ville
+<figure>
+</figure>
+##Prix
+class="tag price">
+€</span>
+##Surface
+Surface habitable :
+m<sup>
+##NbrPiece
+Pièces :
+</dd>
+##NbrChambre
+Chambres :
+</dd>

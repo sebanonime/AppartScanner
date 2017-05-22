@@ -1,0 +1,25 @@
+﻿##Adapter
+Default
+##Encoding
+UTF-8
+##SearchResultUrl
+http://www.century21.fr/annonces/achat-maison-appartement/v-vincennes-nogent+sur+marne-fontenay+sous+bois-st+mande/cpv-93100_montreuil/s-80-/st-0-/b-0-860000/p-3-4-5/page-%PAGE_NBR%/
+##DetailUrl
+<a href="/trouver_logement/detail
+
+##EndOfPage
+
+##Prix
+<span class="yellow">
+&euro;
+##Surface
+Surface habitable</span> : 
+ m<sup>2</sup>
+##NbrPiece
+>Nombre de pièces :
+<a class
+##Ville
+var CP = 
+;
+##NbrChambre
+

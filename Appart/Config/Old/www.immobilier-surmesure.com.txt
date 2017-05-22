@@ -1,0 +1,26 @@
+﻿##Adapter
+Default
+##Encoding
+UTF-8
+##SearchResultUrl
+http://www.immobilier-surmesure.com/acheter/
+##DetailUrl
+http://www.immobilier-surmesure.com/nos-biens/
+
+##EndOfPage
+
+##Ville
+Code postal <span class="valueInfos">
+</span>
+##Surface
+Surface loi Carrez (m²) <span class="valueInfos">
+</span>
+##NbrChambre
+Nombre de chambre(s) <span class="valueInfos">
+</span>
+##NbrPiece
+Nombre de pièces <span class="valueInfos">
+</span>
+##Prix
+Prix de vente honoraires TTC inclus <span class="valueInfos">
+€</span>

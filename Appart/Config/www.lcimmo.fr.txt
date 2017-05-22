@@ -1,0 +1,25 @@
+﻿##Adapter
+Default
+##Encoding
+UTF-8
+##SearchResultUrl
+http://www.lcimmo.fr/vente/tri=id&ordre=DESC&p=%PAGE_NBR%
+##DetailUrl
+/vente/details/
+
+##EndOfPage
+
+##Prix
+<div class="prix">
+ &euro
+##Ville
+Localisation :</span> <span class="indication">
+</span>
+##NbrPiece
+Nombre de pièces :</span> <span class="indication">
+</span>
+##Surface
+Surface :</span> <span class="indication">
+m&sup2;
+##NbrChambre
+

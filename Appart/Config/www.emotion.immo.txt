@@ -1,0 +1,25 @@
+﻿##Adapter
+Default
+##Encoding
+Default
+##SearchResultUrl
+http://www.emotion.immo/annonces/transaction/Vente.html
+##DetailUrl
+../fiches/
+
+##EndOfPage
+
+##Surface
+<div class="display-cell w33  text-center verticalTop">
+m&sup2;
+##NbrPiece
+<div class="display-cell w33  text-center verticalTop">
+Pièce(s)
+##Prix
+<span class="hono_inclus_price">
+€</span>
+##Ville
+Ville</div><div class="col-sm-6"><b>
+</b>
+##NbrChambre
+

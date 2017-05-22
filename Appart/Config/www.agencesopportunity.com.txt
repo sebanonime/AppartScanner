@@ -1,0 +1,26 @@
+﻿##Adapter
+AgencesopportunityAdapter
+##Encoding
+Default
+##SearchResultUrl
+http://www.agencesopportunity.com/achat-immobilier,%PAGE_NBR%0.html
+##DetailUrl
+annonce,vente-
+
+##EndOfPage
+
+##Ville
+property="og:description" content="
+ 
+##NbrPiece
+Nombre de pi&egrave;ces
+<
+##NbrChambre
+Nombre de chambres
+<
+##Surface
+Surface environ 
+ m&sup2; <
+##Prix
+class="prixoragne">
+ &euro;
