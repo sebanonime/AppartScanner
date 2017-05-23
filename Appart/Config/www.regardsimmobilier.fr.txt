@@ -1,0 +1,26 @@
+##Adapter
+Default
+##Encoding
+UTF-8
+##SearchResultUrl
+http://www.regardsimmobilier.fr/index.php/nos-offres/vente
+##DetailUrl
+/index.php/nos-offres/vente/
+
+##EndOfPage
+
+##Ville
+<address>
+</address>
+##Prix
+<td class="right">
+</td>
+##Surface
+Surface habitable</th>
+m²</td>
+##NbrPiece
+Nb de pièces</th>
+</td>
+##NbrChambre
+Nb de chambres</th>
+</td>
