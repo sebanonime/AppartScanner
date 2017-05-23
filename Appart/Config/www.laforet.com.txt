@@ -1,0 +1,25 @@
+##Adapter
+Default
+##Encoding
+UTF-8
+##SearchResultUrl
+http://www.laforet.com/acheter/rechercher/page%NBR_PAGE%?slug=&ajaxValue=0&localisation=Vincennes%20%2894300%29%2C%20Fontenay%20Sous%20Bois%20%2894120%29%2C%20Nogent%20Sur%20Marne%20%2894130%29%2C%20Montreuil%20%2893100%29&rayon=00&price_min=400000&price_max=850000&surface_min=80&surface_max=Max&ground_surface=&maison=on&appartement=on&terrain=on&rooms4=4&rooms5=5&bedrooms3=3&bedrooms4=4&bedrooms5=5&floor_min=&floor_max=&reference=&type_rech=&url_rech_elargie=&nb_rech_elargie=&est_groupement=
+##DetailUrl
+<a href="/acheter/
+
+##EndOfPage
+<ul class="pagination">
+##Ville
+
+
+##NbrPiece
+addthis:title="
+"
+##Surface
+addthis:title="
+"
+##Prix
+
+
+##NbrChambre
+
