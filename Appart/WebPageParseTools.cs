@@ -16,10 +16,10 @@ namespace Appart
         {
             string resu = input.Replace("<b>", "").Replace("</b>", "").Replace("<a>", "").Replace("</a>", "").Replace("<br>", "").Replace("<br />", "")
                 .Replace("<br/>", "")
-                .Replace("<dt>", "").Replace("</dt>", "")
+                .Replace("<td>", "").Replace("</dt>", "")
                 .Replace("<dd>", "").Replace("</dd>", "")
                 .Replace("Ã©", "é").Replace("Ã¨", "è").Replace("Ãª", "ê").Replace("Â»", "\"").Replace("Ã?", "E").Replace("Ã", "à").Replace("àª", "ê").Replace("%27", "'")
-                .Replace("\r\n", "").Replace("  ", "").Replace("&nbsp;", "").Replace("<i>", "").Replace("</i>", "").Replace("&quot;", "\"")
+                .Replace("\r\n", "").Replace("\r", "").Replace("\n", "").Replace("  ", "").Replace("&nbsp;", "").Replace("<i>", "").Replace("</i>", "").Replace("&quot;", "\"")
                 .Replace("<h4>", "").Replace("<b>", "").Replace("</b>", "").Replace("â?¦", "...").Replace("à§", "ç").Replace("à¶", "ö").Replace("à´", "ô").Replace("à®", "î").Replace("à¹", "ù")
                 .Replace("à¢", "a").Replace("'?¦", "").Replace("â??", "'").Replace("'??", "\'").Replace("à«", "ë").Replace("Â«", "\"").
                 Replace("&amp;", "&").Replace("&#39;", "'").Replace("&#233;", "é").Replace("&#232;", "è")

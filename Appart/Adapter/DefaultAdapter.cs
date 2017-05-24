@@ -38,17 +38,6 @@ namespace Appart.Adapter
                     Logger.Debug($"{appart.WebSite}: Search {item.Key} between '{item.Begin}' and '{item.End}'. Url={url}");
                     var searchResu = webPage.SearchBetween(@item.Begin, @item.End, out webPage).CleanText();
 
-                    if (string.IsNullOrEmpty(searchResu))
-                    {
-                        Logger.Error($"   -{item.Key} not found");
-                        File.WriteAllText($"WebPage-{appart.WebSite}.txt", fullWebPage);
-                    }
-                    else
-                    {
-                        Logger.Debug($"   -{item.Key}={searchResu}");
-                    }
-                    
-
                     switch (item.Key)
                     {
                         case "Ville":
@@ -58,7 +47,7 @@ namespace Appart.Adapter
                             appart.Surface = searchResu.ToInt();
                             break;
                         case "Prix":
-                            appart.Prix = searchResu.ToInt();
+                            appart.Prix = searchResu.Replace("€", "").Trim().ToInt();
                             break;
                         case "NbrChambre":
                             appart.NbrChambre = searchResu.ToInt();
@@ -67,31 +56,46 @@ namespace Appart.Adapter
                             appart.NbrPiece = searchResu.ToInt();
                             break;
                     }
+
+                    if (ConfigLoader.TestMode)
+                    {
+                        File.WriteAllText($@"Logs\WebPage-{appart.WebSite}.txt", fullWebPage);
+                    }
+
+                    if (string.IsNullOrEmpty(searchResu))
+                    {
+                        Logger.Error($"   -{item.Key} not found");                        
+                    }
+                    else
+                    {
+                        Logger.Debug($"   -{item.Key}={searchResu}. {appart.AllDataAvailable()} - {appart}");
+                    }
                 }
             }
         }
 
         protected string ProcessVilleOrCodePostal(string villeOrCodePostal)
         {
-
-            if (int.TryParse(villeOrCodePostal, out int codePostal))
+            var mapping = new Dictionary<int, string>
             {
-                switch(codePostal)
-                {
-                    case 94300:
-                        return "VINCENNES";
-                    case 94120:
-                        return "FONTENAY SOUS BOIS";
-                    case 93100:
-                        return "MONTREUIL";
-                    case 94160:
-                        return "SAINT MANDE";
-                    case 94130:
-                        return "NOGENT SUR MARNE";
-                }
+                { 94300, "VINCENNES" },
+                { 94120, "FONTENAY SOUS BOIS" },
+                { 93100, "MONTREUIL" },
+                { 94160, "SAINT MANDE" },
+                { 94130, "NOGENT SUR MARNE" },
+
+            };
+
+            if (int.TryParse(villeOrCodePostal, out int codePostal) 
+                && mapping.TryGetValue(codePostal, out string ville))
+            {
+                return ville;
             }
 
-            return villeOrCodePostal.ToUpper().Replace("-", " ");
+            var codePostalToRemove = mapping.Keys.Where(o => villeOrCodePostal.Contains(o.ToString())).FirstOrDefault();
+            villeOrCodePostal = villeOrCodePostal.Replace(codePostalToRemove.ToString(), "");
+
+            return villeOrCodePostal.ToUpper().Replace("-", " ").CleanText();
         }
 
         public bool PageEnded (string webPage)
