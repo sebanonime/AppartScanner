@@ -1,0 +1,220 @@
+Ville; Prix; Surface; NbrChambre; NbrPiece; Date; MatchCriteria; WebSite; ToCheck; UrlDetail
+9212 MONTROUGE; 80000; -666; -666; -666; 25/05/2017 22:40:25; False; www.regardsimmobilier.fr; True; http://www.regardsimmobilier.fr/index.php/nos-offres/vente/1443-viager-occupe
+9212 MONTROUGE; 26000; -666; -666; -666; 25/05/2017 22:40:25; False; www.regardsimmobilier.fr; True; http://www.regardsimmobilier.fr/index.php/nos-offres/vente/1470-messier-parking-de-14m
+9212 MONTROUGE; 25000; -666; -666; -666; 25/05/2017 22:40:24; False; www.regardsimmobilier.fr; True; http://www.regardsimmobilier.fr/index.php/nos-offres/vente/1385-parking-en-sous-sol
+NOGENT SUR MARNE; 770000; -666; -666; -666; 25/05/2017 22:40:24; False; www.regardsimmobilier.fr; True; http://www.regardsimmobilier.fr/index.php/nos-offres/vente/1460-nogent-bois-5p-avec-balcon-terrasse
+VINCENNES; 770000; -666; -666; -666; 25/05/2017 22:40:23; False; www.regardsimmobilier.fr; True; http://www.regardsimmobilier.fr/index.php/nos-offres/vente/1473-nogent-bois-4p-avec-balcon-terrasse
+9531 SAINT OUEN L AUMONE; 82000; -666; -666; -666; 25/05/2017 22:40:22; False; www.regardsimmobilier.fr; True; http://www.regardsimmobilier.fr/index.php/nos-offres/vente/1511-saint-ouen-l-aumone-studio-en-duplex
+923 LEVALLOIS PERRET; 344000; -666; -666; -666; 25/05/2017 22:40:22; False; www.regardsimmobilier.fr; True; http://www.regardsimmobilier.fr/index.php/nos-offres/vente/1489-levallois-2p-avec-terrasse
+9212 MONTROUGE; 625000; -666; -666; -666; 25/05/2017 22:40:22; False; www.regardsimmobilier.fr; True; http://www.regardsimmobilier.fr/index.php/nos-offres/vente/1499-montrouge-4p-avec-terrasse
+9212 MONTROUGE; 599000; -666; -666; -666; 25/05/2017 22:40:21; False; www.regardsimmobilier.fr; True; http://www.regardsimmobilier.fr/index.php/nos-offres/vente/1518-5pieces-de-92m-au-pied-des-commerces
+9229 CHATENAY MALABRY; 284000; -666; -666; -666; 25/05/2017 22:40:21; False; www.regardsimmobilier.fr; True; http://www.regardsimmobilier.fr/index.php/nos-offres/vente/1500-3p-en-rez-de-jardin
+9212 MONTROUGE; 90100; -666; -666; -666; 25/05/2017 22:40:21; False; www.regardsimmobilier.fr; True; http://www.regardsimmobilier.fr/index.php/nos-offres/vente/1521-fonds-de-commerce-montrouge
+9235 LE PLESSIS ROBINSON; 418000; -666; -666; -666; 25/05/2017 22:40:20; False; www.regardsimmobilier.fr; True; http://www.regardsimmobilier.fr/index.php/nos-offres/vente/1517-plessis-robinson-3p
+MONTREUIL; 315000; 93100; 93100; 93100; 25/05/2017 22:40:30; True; www.lagenceduchateau.com; True; http://www.lagenceduchateau.com/630-2-Pieces.html
+VINCENNES; 470000; 94300; 94300; 94300; 25/05/2017 22:40:29; True; www.lagenceduchateau.com; True; http://www.lagenceduchateau.com/636-Appartement-3-pieces-51-06-m2.html
+; -666; -666; -666; -666; 25/05/2017 22:40:28; False; www.lagenceduchateau.com; True; http://www.lagenceduchateau.com/621-FONTENAY-A-2-PAS-DU-BOIS.html
+VINCENNES; 545000; 94300; 94300; 94300; 25/05/2017 22:40:27; True; www.lagenceduchateau.com; True; http://www.lagenceduchateau.com/627-3-PIECES-VINCENNES-DEFRANCE-PROCHE-BOIS.html
+VINCENNES; 565000; 94300; 94300; 94300; 25/05/2017 22:40:26; True; www.lagenceduchateau.com; True; http://www.lagenceduchateau.com/615-VINCENTES-CARRE-MAGIQUE.html
+VINCENNES; 585000; 94300; 94300; 94300; 25/05/2017 22:40:25; True; www.lagenceduchateau.com; True; http://www.lagenceduchateau.com/629-5-PIECES-VINCENNES-LIMITE-FONTENAY.html
+VINCENNES; 620000; 94300; 94300; 94300; 25/05/2017 22:40:24; True; www.lagenceduchateau.com; True; http://www.lagenceduchateau.com/637-Appartement-5-pieces-80-1m2.html
+FONTENAY SOUS BOIS; 699000; 94120; 94120; 94120; 25/05/2017 22:40:23; True; www.lagenceduchateau.com; True; http://www.lagenceduchateau.com/626-4-PIECES-FONTENAY-PEPINIERE.html
+VINCENNES; 895000; 94300; 94300; 94300; 25/05/2017 22:40:22; False; www.lagenceduchateau.com; True; http://www.lagenceduchateau.com/599-MAISON-DE-5-PIECES-VINCENNES.html
+PARTICULIER FONTENAY SOUS BOIS; 3700000; 700; 11; 11; 25/05/2017 22:40:52; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-hotel-particulier-fontenay-sous-bois,6029,890019,fr.html
+QUINCY VOISINS; 2900000; 700; 15; 15; 25/05/2017 22:40:52; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-quincy-voisins,6029,785979,fr.html
+PARIS 5EME; -666; -666; -666; -666; 25/05/2017 22:40:51; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-immeuble-paris-5eme,6029,1678189,fr.html
+ROQUEBRUNE CAP MARTIN; 2500000; 240; 5; 5; 25/05/2017 22:40:51; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-roquebrune-cap-martin,6029,1233868,fr.html
+PONT L ABBE; -666; -666; -666; -666; 25/05/2017 22:40:51; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-pont-l-abbe,6029,1624743,fr.html
+COUTARNOUX; 1500000; -666; 39; 39; 25/05/2017 22:40:50; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-chateau-coutarnoux,6029,005910,fr.html
+MONTREUIL; 1480000; 418; 10; 10; 25/05/2017 22:40:50; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-montreuil,6029,886197,fr.html
+MONTREUIL; 1470000; 430; 7; 7; 25/05/2017 22:40:50; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-montreuil,6029,m04758,fr.html
+NOISY LE GRAND; 1420000; 375; 11; 11; 25/05/2017 22:40:49; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-noisy-le-grand,6029,1268226,fr.html
+NOGENT SUR MARNE; 1300000; 200; 7; 7; 25/05/2017 22:40:49; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-nogent-sur-marne,6029,m06134,fr.html
+MONTREUIL; 1275000; 347; 8; 8; 25/05/2017 22:40:49; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-montreuil,6029,1362872,fr.html
+LE RAINCY; 1260000; 253; 8; 8; 25/05/2017 22:40:48; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-villa-le-raincy,6029,1221176,fr.html
+BRY SUR MARNE; 1250000; 220; 7; 7; 25/05/2017 22:40:48; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-villa-bry-sur-marne,6029,1028488,fr.html
+FONTENAY SOUS BOIS; 1100000; 343; 10; 10; 25/05/2017 22:40:47; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-fontenay-sous-bois,6029,930417,fr.html
+JOINVILLE LE PONT; 1080000; 145; 7; 7; 25/05/2017 22:40:46; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-joinville-le-pont,6029,737899,fr.html
+LE PERREUX SUR MARNE; 990000; 168; 6; 6; 25/05/2017 22:40:45; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-le-perreux-sur-marne,6029,1293036,fr.html
+PARENTIS EN BORN; 945000; 250; 7; 7; 25/05/2017 22:40:45; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-parentis-en-born,6029,m04531,fr.html
+VIRY CHATILLON; 840000; 300; 8; 8; 25/05/2017 22:40:44; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-viry-chatillon,6029,1736502,fr.html
+LIVRY GARGAN; 840000; 200; 6; 6; 25/05/2017 22:40:44; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-livry-gargan,6029,1250019,fr.html
+LA VARENNE SAINT HILAIRE; 840000; 130; 7; 7; 25/05/2017 22:40:44; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-la-varenne-saint-hilaire,6029,1703812,fr.html
+DIGES; 800000; 630; 13; 13; 25/05/2017 22:40:43; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-diges,6029,962686,fr.html
+LE RAINCY; 800000; 264; 8; 8; 25/05/2017 22:40:43; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-le-raincy,6029,1228575,fr.html
+VENCE; 795000; 165; 4; 4; 25/05/2017 22:40:43; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-vence,6029,796209,fr.html
+CRETEIL; 790000; 200; 6; 6; 25/05/2017 22:40:42; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-creteil,6029,783087,fr.html
+MAISONS ALFORT; 775000; -666; 6; 6; 25/05/2017 22:40:42; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-maisons-alfort,6029,1235262,fr.html
+NOGENT SUR MARNE; 765000; 100; 4; 4; 25/05/2017 22:40:41; True; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-nogent-sur-marne,6029,738505,fr.html
+FONTENAY SOUS BOIS; 730000; 184; 6; 6; 25/05/2017 22:40:41; True; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-fontenay-sous-bois,6029,1705253,fr.html
+LES LILAS; 730000; 180; 6; 6; 25/05/2017 22:40:39; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-les-lilas,6029,1331076,fr.html
+CLAYE SOUILLY; 720000; 100; 3; 3; 25/05/2017 22:40:38; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-claye-souilly,6029,1609351,fr.html
+BRAY SUR SEINE; 700000; 180; 7; 7; 25/05/2017 22:40:38; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-propriete-bray-sur-seine,6029,1424098,fr.html
+MONTREUIL; 670000; 260; 10; 10; 25/05/2017 22:40:37; True; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-montreuil,6029,1254084,fr.html
+NOGENT SUR MARNE; 660000; 94; 5; 5; 25/05/2017 22:40:37; True; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-nogent-sur-marne,6029,1664070,fr.html
+DRAGUIGNAN; 655000; 175; 6; 6; 25/05/2017 22:40:36; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-mas-draguignan,6029,1117604,fr.html
+ENTRECHAUX; 599000; 300; 10; 10; 25/05/2017 22:40:36; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-entrechaux,6029,972468,fr.html
+EVRY GREGY SUR YERRE; 599000; 250; 8; 8; 25/05/2017 22:40:34; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-evry-gregy-sur-yerre,6029,1661329,fr.html
+BONNEUIL SUR MARNE; 570000; 140; 5; 5; 25/05/2017 22:40:33; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-bonneuil-sur-marne,6029,1623225,fr.html
+LIVRY GARGAN; 540000; 230; 6; 6; 25/05/2017 22:40:33; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-livry-gargan,6029,1326750,fr.html
+MONTREUIL; 540000; 185; 7; 7; 25/05/2017 22:40:32; True; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-montreuil,6029,833160,fr.html
+VITRY SUR SEINE; 510000; 170; 9; 9; 25/05/2017 22:40:32; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-vitry-sur-seine,6029,1574976,fr.html
+LIVRY GARGAN; 475000; 186; 6; 6; 25/05/2017 22:40:31; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-livry-gargan,6029,1320270,fr.html
+EPONE; -666; 200; 6; 6; 25/05/2017 22:40:31; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-epone,6029,1465413,fr.html
+SAINT BRIEUC; 414000; 210; 8; 8; 25/05/2017 22:40:30; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-saint-brieuc,6029,1581331,fr.html
+MONTREUIL; 405600; -666; 4; 4; 25/05/2017 22:40:30; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-montreuil,6029,1733004,fr.html
+MONTREUIL; 399000; 230; 9; 9; 25/05/2017 22:40:29; True; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-montreuil,6029,m05974,fr.html
+CHAMPIGNY SUR MARNE; 395000; 105; 6; 6; 25/05/2017 22:40:28; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-champigny-sur-marne,6029,1277549,fr.html
+SEVRAN; 379000; 200; 4; 4; 25/05/2017 22:40:27; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-sevran,6029,814347,fr.html
+LES PAVILLONS SOUS BOIS; 365000; 120; 5; 5; 25/05/2017 22:40:26; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-les-pavillons-sous-bois,6029,1373088,fr.html
+DRANCY; 360000; 120; 5; 5; 25/05/2017 22:40:26; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-drancy,6029,1669979,fr.html
+SEVRAN; 354000; 122; 5; 5; 25/05/2017 22:40:26; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-sevran,6029,828090,fr.html
+CHELLES; 349000; 115; 5; 5; 25/05/2017 22:40:25; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-chelles,6029,1310710,fr.html
+LIVRY GARGAN; 345000; 125; 5; 5; 25/05/2017 22:40:24; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-livry-gargan,6029,1327459,fr.html
+STIGNY; 334000; 250; 8; 8; 25/05/2017 22:40:23; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-stigny,6029,950300,fr.html
+MONTREUIL; 320000; 74; 3; 3; 25/05/2017 22:40:23; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-montreuil,6029,1305299,fr.html
+SAINT MAURICE SUR MOSELLE; 320000; 190; 7; 7; 25/05/2017 22:40:21; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-saint-maurice-sur-moselle,6029,8586618,fr.html
+LES PAVILLONS SOUS BOIS; 315000; 80; 3; 3; 25/05/2017 22:40:21; False; www.agencesopportunity.com; True; http://www.agencesopportunity.com/annonce,vente-maison-les-pavillons-sous-bois,6029,1638490,fr.html
+BRY SUR MARNE; 697000; 120; 0; 120; 25/05/2017 22:40:30; False; www.emotion.immo; True; http://www.emotion.immo/../fiches/4-40-26_20647796/maison-bry-sur-marne.html
+LE PERREUX SUR MARNE; 167500; 38; 0; 38; 25/05/2017 22:40:29; False; www.emotion.immo; True; http://www.emotion.immo/../fiches/3-33-28_19594502/appartement-le-perreux-sur-marne-2-piece-s-38-m2.html
+NOGENT SUR MARNE; 338000; 60; 0; 60; 25/05/2017 22:40:28; False; www.emotion.immo; True; http://www.emotion.immo/../fiches/3-33-29_19233728/appartement-nogent-sur-marne-3-piece-s-60-4-m2-avec-terrasse-et-jardin-de-120m2.html
+NOGENT SUR MARNE; 283000; 44; 0; 44; 25/05/2017 22:40:27; False; www.emotion.immo; True; http://www.emotion.immo/../fiches/3-33-28_20657691/appartement-nogent-sur-marne-2-piece-s-44-m2.html
+BRY SUR MARNE; 395000; 49; 0; 49; 25/05/2017 22:40:26; False; www.emotion.immo; True; http://www.emotion.immo/../fiches/3-33-29_20656133/appartement-bry-sur-marne-3-piece-s-49-m2.html
+NOGENT SUR MARNE; 884000; 140; 0; 140; 25/05/2017 22:40:24; False; www.emotion.immo; True; http://www.emotion.immo/../fiches/4-40-26_20751889/maison-6-piece-s-150-m2.html
+VINCENNES; 535000; 71; 3; 3; 25/05/2017 22:40:31; False; www.properties-v.com; True; http://www.properties-v.com/property-detail.php?ID=D503-01-14830892&q=ville%3D%26type_bien%3D%26budget%3D2%26surface%3D1%26trier_par%3D%26page%3D4
+ST MAURICE; 550000; 82; 5; 5; 25/05/2017 22:40:31; False; www.properties-v.com; True; http://www.properties-v.com/property-detail.php?ID=D503-01-15389972&q=ville%3D%26type_bien%3D%26budget%3D2%26surface%3D1%26trier_par%3D%26page%3D4
+VINCENNES; 570000; 63; 3; 3; 25/05/2017 22:40:30; False; www.properties-v.com; True; http://www.properties-v.com/property-detail.php?ID=D503-01-15344440&q=ville%3D%26type_bien%3D%26budget%3D2%26surface%3D1%26trier_par%3D%26page%3D4
+VINCENNES; 585000; 68; 3; 3; 25/05/2017 22:40:30; False; www.properties-v.com; True; http://www.properties-v.com/property-detail.php?ID=D503-01-15382807&q=ville%3D%26type_bien%3D%26budget%3D2%26surface%3D1%26trier_par%3D%26page%3D3
+VINCENNES; 595000; 71; 3; 3; 25/05/2017 22:40:29; False; www.properties-v.com; True; http://www.properties-v.com/property-detail.php?ID=D503-01-15285380&q=ville%3D%26type_bien%3D%26budget%3D2%26surface%3D1%26trier_par%3D%26page%3D3
+VINCENNES; 618000; 71; 4; 4; 25/05/2017 22:40:29; False; www.properties-v.com; True; http://www.properties-v.com/property-detail.php?ID=D503-01-15320052&q=ville%3D%26type_bien%3D%26budget%3D2%26surface%3D1%26trier_par%3D%26page%3D3
+VINCENNES; 620000; 71; 3; 3; 25/05/2017 22:40:29; False; www.properties-v.com; True; http://www.properties-v.com/property-detail.php?ID=D503-01-15214146&q=ville%3D%26type_bien%3D%26budget%3D2%26surface%3D1%26trier_par%3D%26page%3D3
+VINCENNES; 635000; 72; 3; 3; 25/05/2017 22:40:28; False; www.properties-v.com; True; http://www.properties-v.com/property-detail.php?ID=D503-01-15104096&q=ville%3D%26type_bien%3D%26budget%3D2%26surface%3D1%26trier_par%3D%26page%3D3
+VINCENNES; 700000; 92; 4; 4; 25/05/2017 22:40:28; True; www.properties-v.com; True; http://www.properties-v.com/property-detail.php?ID=D503-01-15103946&q=ville%3D%26type_bien%3D%26budget%3D2%26surface%3D1%26trier_par%3D%26page%3D2
+VINCENNES; 720000; 97; 5; 5; 25/05/2017 22:40:27; True; www.properties-v.com; True; http://www.properties-v.com/property-detail.php?ID=D503-01-15263066&q=ville%3D%26type_bien%3D%26budget%3D2%26surface%3D1%26trier_par%3D%26page%3D2
+MONTREUIL; 750000; 130; 6; 6; 25/05/2017 22:40:27; True; www.properties-v.com; True; http://www.properties-v.com/property-detail.php?ID=D503-01-15393826&q=ville%3D%26type_bien%3D%26budget%3D2%26surface%3D1%26trier_par%3D%26page%3D2
+FONTENAY SOUS BOIS; 785000; 105; 5; 5; 25/05/2017 22:40:27; True; www.properties-v.com; True; http://www.properties-v.com/property-detail.php?ID=D503-01-15281029&q=ville%3D%26type_bien%3D%26budget%3D2%26surface%3D1%26trier_par%3D%26page%3D2
+VINCENNES; 789000; 99; 5; 5; 25/05/2017 22:40:26; True; www.properties-v.com; True; http://www.properties-v.com/property-detail.php?ID=D503-01-15332483&q=ville%3D%26type_bien%3D%26budget%3D2%26surface%3D1%26trier_par%3D%26page%3D2
+ST MANDE; 850000; 98; 5; 5; 25/05/2017 22:40:26; False; www.properties-v.com; True; http://www.properties-v.com/property-detail.php?ID=D503-01-14830844&q=ville%3D%26type_bien%3D%26budget%3D2%26surface%3D1%26trier_par%3D%26page%3D1
+VINCENNES; 860000; 115; 5; 5; 25/05/2017 22:40:25; False; www.properties-v.com; True; http://www.properties-v.com/property-detail.php?ID=D503-01-15061057&q=ville%3D%26type_bien%3D%26budget%3D2%26surface%3D1%26trier_par%3D%26page%3D1
+VINCENNES; 950000; 110; 6; 6; 25/05/2017 22:40:25; False; www.properties-v.com; True; http://www.properties-v.com/property-detail.php?ID=D503-01-15349747&q=ville%3D%26type_bien%3D%26budget%3D2%26surface%3D1%26trier_par%3D%26page%3D1
+VINCENNES; 970000; 136; 6; 6; 25/05/2017 22:40:25; False; www.properties-v.com; True; http://www.properties-v.com/property-detail.php?ID=D503-01-14879692&q=ville%3D%26type_bien%3D%26budget%3D2%26surface%3D1%26trier_par%3D%26page%3D1
+FONTENAY SOUS BOIS; 1000000; 111; 4; 4; 25/05/2017 22:40:24; False; www.properties-v.com; True; http://www.properties-v.com/property-detail.php?ID=D503-01-15397121&q=ville%3D%26type_bien%3D%26budget%3D2%26surface%3D1%26trier_par%3D%26page%3D1
+FONTENAY SOUS BOIS; 262000; 57; 0; 3; 25/05/2017 22:40:32; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2188&mt=02208&menu=2
+FONTENAY SOUS BOIS; 260000; 63; 0; 3; 25/05/2017 22:40:32; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2286&mt=02311&menu=2
+FONTENAY SOUS BOIS; 228000; 60; 0; 3; 25/05/2017 22:40:31; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2025&mt=01855&menu=2
+FONTENAY SOUS BOIS; 225000; 60; 0; 3; 25/05/2017 22:40:30; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2082&mt=02058&menu=2
+FONTENAY SOUS BOIS; 225000; 66; 0; 3; 25/05/2017 22:40:29; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2187&mt=vivis&menu=2
+FONTENAY SOUS BOIS; 219000; 50; 0; 3; 25/05/2017 22:40:29; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=1936&mt=ME&menu=2
+FONTENAY SOUS BOIS; 218000; 65; 0; 3; 25/05/2017 22:40:28; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2177&mt=ben1&menu=2
+FONTENAY SOUS BOIS; 215000; 35; 0; 2; 25/05/2017 22:40:28; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2298&mt=770772&menu=2
+FONTENAY SOUS BOIS; 205000; 63; 0; 3; 25/05/2017 22:40:27; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2172&mt=Dada&menu=2
+FONTENAY SOUS BOIS; 199900; 59; 0; 3; 25/05/2017 22:40:26; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2150&mt=02164&menu=2
+FONTENAY SOUS BOIS; 199500; 82; 0; 4; 25/05/2017 22:40:25; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2216&mt=&menu=2
+FONTENAY SOUS BOIS; 199000; 48; 0; 2; 25/05/2017 22:40:25; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2275&mt=02313&menu=2
+FONTENAY SOUS BOIS; 189500; 25; 0; 1; 25/05/2017 22:40:24; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2261&mt=Vincennes&menu=2
+FONTENAY SOUS BOIS; 189000; 32; 0; 2; 25/05/2017 22:40:23; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2198&mt=0211aaa&menu=2
+FONTENAY SOUS BOIS; 188000; 39; 0; 2; 25/05/2017 22:40:23; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2247&mt=02270&menu=2
+FONTENAY SOUS BOIS; 174000; 37; 0; 2; 25/05/2017 22:40:22; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2125&mt=hihi&menu=2
+FONTENAY SOUS BOIS; 174000; 55; 0; 3; 25/05/2017 22:40:22; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2191&mt=do2&menu=2
+FONTENAY SOUS BOIS; 169000; 29; 0; 2; 25/05/2017 22:40:22; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2249&mt=DEMANN&menu=2
+FONTENAY SOUS BOIS; 168000; 26; 0; 1; 25/05/2017 22:40:21; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2184&mt=namumu&menu=2
+FONTENAY SOUS BOIS; 165000; 33; 0; 2; 25/05/2017 22:40:21; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2265&mt=02293&menu=2
+FONTENAY SOUS BOIS; 12900; 13; 0; 1; 25/05/2017 22:40:21; False; www.bsi94.com; True; http://www.bsi94.com/bsi-annonce-immobilier.php?ref=2208&mt=02207&menu=2
+FONTENAY SOUS BOIS; 158000; 25; 0; -666; 25/05/2017 22:40:40; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/83/vente-appartement-2-pieces-1-chambre-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 416000; 80; 0; -666; 25/05/2017 22:40:40; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/186/vente-maison-4-pieces-2-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 235000; 40; 0; -666; 25/05/2017 22:40:40; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/227/vente-appartement-2-pieces-1-chambre-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 370000; 71; 0; -666; 25/05/2017 22:40:39; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/270/vente-appartement-3-pieces-fontenay-sous-bois-94120/
+NOGENT SUR MARNE; 490000; 76; 0; -666; 25/05/2017 22:40:39; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/281/vente-appartement-4-pieces-2-chambres-nogent-sur-marne-94130/
+FONTENAY SOUS BOIS; 426000; 110; 0; -666; 25/05/2017 22:40:39; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/322/vente-maison-de-ville-3-pieces-2-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 799000; 160; 0; -666; 25/05/2017 22:40:39; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/362/vente-maison-7-pieces-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 1280000; 250; 0; -666; 25/05/2017 22:40:39; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/366/vente-maison-8-pieces-5-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 1450000; 200; 0; -666; 25/05/2017 22:40:38; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/367/vente-maison-8-pieces-5-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 749000; 180; 0; -666; 25/05/2017 22:40:38; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/368/vente-maison-8-pieces-5-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 1350000; 170; 0; -666; 25/05/2017 22:40:38; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/369/vente-maison-8-pieces-5-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 950000; 150; 0; -666; 25/05/2017 22:40:38; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/370/vente-maison-7-pieces-5-chambres-fontenay-sous-bois-94120/
+NOGENT SUR MARNE; 969000; 140; 0; -666; 25/05/2017 22:40:37; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/371/vente-maison-6-pieces-4-chambres-nogent-sur-marne-94130/
+FONTENAY SOUS BOIS; 315000; -666; 0; -666; 25/05/2017 22:40:37; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/372/vente-appartement-5-pieces-3-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 650000; 100; 0; -666; 25/05/2017 22:40:37; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/373/vente-maison-5-pieces-3-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 290000; 55; 0; -666; 25/05/2017 22:40:37; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/374/vente-appartement-3-pieces-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 229000; -666; 0; -666; 25/05/2017 22:40:36; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/375/vente-appartement-2-pieces-1-chambre-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 345000; -666; 0; -666; 25/05/2017 22:40:36; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/376/vente-appartement-4-pieces-2-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 415000; 62; 0; -666; 25/05/2017 22:40:36; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/377/vente-appartement-3-pieces-2-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 290000; 51; 0; -666; 25/05/2017 22:40:36; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/378/vente-appartement-3-pieces-2-chambres-fontenay-sous-bois-94120/
+NOGENT SUR MARNE; 680000; 130; 0; -666; 25/05/2017 22:40:36; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/379/vente-maison-6-pieces-4-chambres-nogent-sur-marne-94130/
+FONTENAY SOUS BOIS; 365000; 68; 0; -666; 25/05/2017 22:40:35; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/380/vente-appartement-4-pieces-3-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 420000; 178; 0; -666; 25/05/2017 22:40:35; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/386/vente-local-d-activite-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 670000; 120; 0; -666; 25/05/2017 22:40:35; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/396/vente-maison-5-pieces-3-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 1060000; 145; 0; -666; 25/05/2017 22:40:34; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/397/vente-appartement-5-pieces-3-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 530000; 130; 0; -666; 25/05/2017 22:40:34; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/406/vente-maison-5-pieces-3-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 499000; 70; 0; -666; 25/05/2017 22:40:34; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/407/vente-appartement-3-pieces-2-chambres-fontenay-sous-bois-94120/
+NOGENT SUR MARNE; 279000; 46; 0; -666; 25/05/2017 22:40:34; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/414/vente-appartement-2-pieces-1-chambre-nogent-sur-marne-94130/
+FONTENAY SOUS BOIS; 370000; 56; 0; -666; 25/05/2017 22:40:34; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/415/vente-appartement-2-pieces-1-chambre-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 295000; -666; 0; -666; 25/05/2017 22:40:33; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/417/vente-appartement-3-pieces-2-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 262000; -666; 0; -666; 25/05/2017 22:40:33; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/420/vente-appartement-4-pieces-3-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 540000; 150; 0; -666; 25/05/2017 22:40:33; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/426/vente-maison-6-pieces-4-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 385000; -666; 0; -666; 25/05/2017 22:40:33; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/436/vente-appartement-6-pieces-3-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 930000; 215; 0; -666; 25/05/2017 22:40:32; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/441/vente-maison-6-pieces-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 550000; -666; 0; -666; 25/05/2017 22:40:32; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/442/vente-appartement-5-pieces-4-chambres-fontenay-sous-bois-94120/
+NEUILLY PLAISANCE; 799000; 235; 0; -666; 25/05/2017 22:40:31; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/443/vente-maison-8-pieces-4-chambres-neuilly-plaisance-93360/
+FONTENAY SOUS BOIS; 895000; 189; 0; -666; 25/05/2017 22:40:31; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/454/vente-maison-7-pieces-3-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 1850000; 370; 0; -666; 25/05/2017 22:40:31; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/455/vente-maison-8-pieces-7-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 315000; -666; 0; -666; 25/05/2017 22:40:31; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/456/vente-appartement-5-pieces-4-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 349000; 60; 0; -666; 25/05/2017 22:40:31; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/457/vente-maison-3-pieces-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 460000; -666; 0; -666; 25/05/2017 22:40:30; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/458/vente-appartement-5-pieces-3-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 740000; 110; 0; -666; 25/05/2017 22:40:30; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/463/vente-maison-5-pieces-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 340000; 57; 0; -666; 25/05/2017 22:40:30; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/464/vente-maison-2-pieces-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 510000; 92; 0; -666; 25/05/2017 22:40:30; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/465/vente-appartement-4-pieces-3-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 575000; 138; 0; -666; 25/05/2017 22:40:30; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/466/vente-maison-6-pieces-4-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 240000; 48; 0; -666; 25/05/2017 22:40:29; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/468/vente-appartement-3-pieces-2-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 265000; -666; 0; -666; 25/05/2017 22:40:29; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/470/vente-appartement-5-pieces-4-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 319000; 66; 0; -666; 25/05/2017 22:40:29; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/472/vente-appartement-3-pieces-2-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 550000; 140; 0; -666; 25/05/2017 22:40:29; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/473/vente-maison-5-pieces-3-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 450000; -666; 0; -666; 25/05/2017 22:40:28; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/474/vente-appartement-3-pieces-2-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 492000; 80; 0; -666; 25/05/2017 22:40:28; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/475/vente-maison-4-pieces-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 270000; 58; 0; -666; 25/05/2017 22:40:28; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/476/vente-appartement-3-pieces-1-chambre-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 495000; 105; 0; -666; 25/05/2017 22:40:28; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/477/vente-appartement-5-pieces-2-chambres-fontenay-sous-bois-94120/
+NEUILLY SUR MARNE; 165000; 68; 0; -666; 25/05/2017 22:40:27; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/478/vente-appartement-3-pieces-2-chambres-neuilly-sur-marne-93330/
+FONTENAY SOUS BOIS; 495000; 76; 0; -666; 25/05/2017 22:40:27; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/480/vente-duplex-4-pieces-3-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 375000; 62; 0; -666; 25/05/2017 22:40:27; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/481/vente-maison-4-pieces-2-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 320000; -666; 0; -666; 25/05/2017 22:40:26; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/482/vente-appartement-5-pieces-3-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 238000; -666; 0; -666; 25/05/2017 22:40:26; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/483/vente-appartement-3-pieces-2-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 320000; 65; 0; -666; 25/05/2017 22:40:26; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/484/vente-appartement-3-pieces-2-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 1450000; 240; 0; -666; 25/05/2017 22:40:25; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/485/vente-maison-7-pieces-4-chambres-fontenay-sous-bois-94120/
+NEUILLY SUR MARNE; 415000; 110; 0; -666; 25/05/2017 22:40:25; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/486/vente-maison-4-pieces-3-chambres-neuilly-sur-marne-93330/
+FONTENAY SOUS BOIS; 670000; 135; 0; -666; 25/05/2017 22:40:24; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/487/vente-maison-6-pieces-3-chambres-fontenay-sous-bois-94120/
+FONTENAY SOUS BOIS; 357000; 63; 0; -666; 25/05/2017 22:40:24; False; www.lcimmo.fr; True; http://www.lcimmo.fr/vente/details/488/vente-maison-3-pieces-2-chambres-fontenay-sous-bois-94120/
+MONTREUIL; 720000; 278; 0; 10; 25/05/2017 22:40:41; True; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1400554139/
+NOGENT SUR MARNE; 700000; 117; 0; 5; 25/05/2017 22:40:40; True; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/943908929/
+FONTENAY SOUS BOIS; 693000; 107; 0; 6; 25/05/2017 22:40:39; True; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1423267270/
+VINCENNES; 668000; 105; 0; 6; 25/05/2017 22:40:39; True; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1317078068/
+VINCENNES; 640000; 130; 0; 5; 25/05/2017 22:40:38; True; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1247362080/
+NOGENT SUR MARNE; 629000; 98; 0; 5; 25/05/2017 22:40:37; True; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1399945995/
+FONTENAY SOUS BOIS; 585000; 110; 0; 5; 25/05/2017 22:40:36; True; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1281797396/
+FONTENAY SOUS BOIS; 535000; 160; 0; 6; 25/05/2017 22:40:35; True; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1202431780/
+FONTENAY SOUS BOIS; 499000; 115; 0; 6; 25/05/2017 22:40:35; True; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1331939377/
+NOGENT SUR MARNE; 495000; 83; 0; 5; 25/05/2017 22:40:34; False; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1413591790/
+VINCENNES; 480000; 83; 0; 4; 25/05/2017 22:40:33; False; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1423289611/
+MONTREUIL; 480000; 83; 0; 4; 25/05/2017 22:40:32; False; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1423288900/
+NOGENT SUR MARNE; 475000; 100; 0; 4; 25/05/2017 22:40:31; True; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1309943371/
+MONTREUIL; 439000; 102; 0; 4; 25/05/2017 22:40:30; True; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1398596327/
+MONTREUIL; 435000; 150; 0; 6; 25/05/2017 22:40:29; True; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1275047579/
+MONTREUIL; 399000; 110; 0; 4; 25/05/2017 22:40:29; True; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1356227290/
+FONTENAY SOUS BOIS; 344000; 93; 0; 3; 25/05/2017 22:40:28; False; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1313536243/
+MONTREUIL; 299000; 85; 0; 5; 25/05/2017 22:40:27; True; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1407482102/
+MONTREUIL; 299000; 82; 0; 5; 25/05/2017 22:40:26; False; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1293957067/
+FONTENAY SOUS BOIS; 281000; 81; 0; 4; 25/05/2017 22:40:25; False; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1313059785/
+MONTREUIL; 230000; 97; 0; 5; 25/05/2017 22:40:23; True; www.century21.fr; True; http://www.century21.fr/trouver_logement/detail/1398741835/
+FONTENAY SOUS BOIS; 510000; 91; 3; 4; 25/05/2017 22:40:42; True; www.laforet.com; True; http://www.laforet.com/acheter/fontenay-sous-bois/appartement-4-pieces-V97110101143
+VINCENNES; 510000; 91; 3; 4; 25/05/2017 22:40:41; True; www.laforet.com; True; http://www.laforet.com/acheter/vincennes/appartement-4-pieces-V97110101146
+FONTENAY SOUS BOIS; 517000; 100; 3; 5; 25/05/2017 22:40:39; True; www.laforet.com; True; http://www.laforet.com/acheter/fontenay-sous-bois/maison-5-pieces-V97110101091
+FONTENAY SOUS BOIS; 517000; 100; 3; 4; 25/05/2017 22:40:38; True; www.laforet.com; True; http://www.laforet.com/acheter/fontenay-sous-bois/maison-4-pieces-V97110101092
+FONTENAY SOUS BOIS; 505000; 100; 4; 5; 25/05/2017 22:40:36; True; www.laforet.com; True; http://www.laforet.com/acheter/fontenay-sous-bois/maison-5-pieces-V97110101136
+NOGENT SUR MARNE; 475000; 100; 3; 4; 25/05/2017 22:40:34; True; www.laforet.com; True; http://www.laforet.com/acheter/nogent-sur-marne/maison-4-pieces-V99450111070
+MONTREUIL; 400000; 100; 3; 5; 25/05/2017 22:40:33; True; www.laforet.com; True; http://www.laforet.com/acheter/montreuil/maison-5-pieces-V08220101230
+NOGENT SUR MARNE; 695000; -666; 4; 5; 25/05/2017 22:40:32; False; www.laforet.com; True; http://www.laforet.com/acheter/nogent-sur-marne/appartement-5-pieces-V99450101133
+NOGENT SUR MARNE; 665000; 110; 4; 6; 25/05/2017 22:40:31; True; www.laforet.com; True; http://www.laforet.com/acheter/nogent-sur-marne/maison-6-pieces-V99450101173
+NOGENT SUR MARNE; 695000; 118; 4; 6; 25/05/2017 22:40:30; True; www.laforet.com; True; http://www.laforet.com/acheter/nogent-sur-marne/maison-6-pieces-V99450101217
+FONTENAY SOUS BOIS; 655000; 200; 5; 7; 25/05/2017 22:40:29; True; www.laforet.com; True; http://www.laforet.com/acheter/fontenay-sous-bois/maison-7-pieces-V97110100552
+MONTREUIL; 535000; 90; 3; 4; 25/05/2017 22:40:27; True; www.laforet.com; True; http://www.laforet.com/acheter/montreuil/maison-4-pieces-V08220101236
+FONTENAY SOUS BOIS; 765000; 140; 4; 5; 25/05/2017 22:40:25; True; www.laforet.com; True; http://www.laforet.com/acheter/fontenay-sous-bois/maison-5-pieces-V97110101144
+VINCENNES; 765000; 140; 4; 5; 25/05/2017 22:40:23; True; www.laforet.com; True; http://www.laforet.com/acheter/vincennes/maison-5-pieces-V97110101145
