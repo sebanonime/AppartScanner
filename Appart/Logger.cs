@@ -28,19 +28,19 @@ namespace Appart
             logger = LogManager.GetLogger("AppartScanner");
         }
 
-        public static void Debug(string format, params object[] args)
+        public static void Debug(string format)
         {
-            logger.DebugFormat(format, args);
+            logger.Debug(format);
         }
 
-        public static void Info(string format, params object[] args)
+        public static void Info(string format)
         {
-            logger.InfoFormat(format, args);
+            logger.Info(format);
         }
 
-        public static void Error(string format, params object[] args)
+        public static void Error(string format)
         {
-            logger.ErrorFormat(format, args);
+            logger.Error(format);
         }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Linq;
+using Appart.Config;
 
 namespace Appart
 {
@@ -12,8 +13,9 @@ namespace Appart
         {
             Logger.Info("Start AppartScanner");
 
-            
-            var apartWeb = new AppartWeb();
+            //var configLoader = new ConfigLoader();
+            //var config = configLoader.LoadConfigFile();
+            var apartWeb = new AppartWebSearcher();
             var allNewAppart = apartWeb.RetrieveAllAppart(ConfigLoader.WebSiteTest);
 
             DisplayResult(apartWeb, allNewAppart);
@@ -26,7 +28,7 @@ namespace Appart
             Console.ReadLine();
         }
 
-        private static void DisplayResult(AppartWeb apartWeb, List<Appartement> allNewAppart)
+        private static void DisplayResult(AppartWebSearcher apartWeb, List<Appartement> allNewAppart)
         {
             Console.WriteLine("");
             Console.WriteLine("");
@@ -62,4 +64,5 @@ namespace Appart
             File.WriteAllLines("AppartWeb.csv", list);
         }
     }
+
 }

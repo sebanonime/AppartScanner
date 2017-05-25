@@ -52,8 +52,10 @@
     <Compile Include="Adapter\DefaultAdapter.cs" />
     <Compile Include="Adapter\IAppartAdapter.cs" />
     <Compile Include="Appartement.cs" />
-    <Compile Include="AppartWeb.cs" />
-    <Compile Include="ConfigLoader.cs" />
+    <Compile Include="AppartWebSearcher.cs" />
+    <Compile Include="Config\AgenceConfig.cs" />
+    <Compile Include="Config\ConfigLoader.cs" />
+    <Compile Include="Config\ConfigSearchItem.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -69,36 +71,40 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Config\Old\www.properties-v.com - Copier.txt">
+    <Content Include="AppartConfig\Old\www.properties-v.com - Copier.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Config\Old\www.immobilier-surmesure.com.txt">
+    <Content Include="AppartConfig\Old\www.immobilier-surmesure.com.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Config\www.century21.fr.txt">
+    <Content Include="AppartConfig\www.century21.fr.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Config\www.agencesopportunity.com.txt">
+    <Content Include="AppartConfig\www.agencesopportunity.com.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Config\www.lagenceduchateau.com.txt">
+    <Content Include="AppartConfig\www.laforet.com.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Config\www.emotion.immo.txt">
+    <Content Include="AppartConfig\www.lagenceduchateau.com.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Config\www.bsi94.com.txt">
+    <Content Include="AppartConfig\www.emotion.immo.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Config\www.lcimmo.fr.txt">
+    <Content Include="AppartConfig\www.bsi94.com.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Config\www.properties-v.com.txt">
+    <Content Include="AppartConfig\www.lcimmo.fr.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Config\www.regardsimmobilier.fr.txt">
+    <Content Include="AppartConfig\www.properties-v.com.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppartConfig\www.regardsimmobilier.fr.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

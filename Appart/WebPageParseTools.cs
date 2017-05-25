@@ -113,7 +113,7 @@ namespace Appart
 
             return Source.Substring(debut - 1, (fin - debut) + 1);
         }
-
+        
         public static string SearchLineContain(this string Source, string strSearch)
         {
             int keywordIdx = Source.IndexOf(strSearch);

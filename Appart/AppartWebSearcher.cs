@@ -6,24 +6,17 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using Appart.Config;
 
 namespace Appart
 {
-    public class AppartWeb
+    public class AppartWebSearcher
     {
         private string webSiteHost;
-
-        //private IAppartAdapter adapter;
-
-        //private Dictionary<string, IAppartAdapter> adapterFactory = new Dictionary<string, IAppartAdapter>()
-        //{
-        //    { "www.properties-v.com", new PropertiesvAdapter() },
-        //    { "www.bsi94.com", new Bsi94Adapter() }
-        //};
         private List<AgenceConfig> config;
         public List<Appartement> AppartInCache { get; set; }
 
-        public AppartWeb()
+        public AppartWebSearcher()
         {
             Logger.Debug("Start AppartWeb");
             var configLoader = new ConfigLoader();
@@ -60,16 +53,16 @@ namespace Appart
             while (true)
             {
                 var urlWithPage = url.Replace("%PAGE_NBR%", pageNbr.ToString());
-                Logger.Info($"Search page {pageNbr} in {urlWithPage}");
+                //Logger.Info($"Search page {pageNbr} in {urlWithPage}");
                 Console.Write(" page {0}: ", pageNbr);
                 var webPage = WebRequester.SendHttpRequest(urlWithPage, config.Encoding);
                 if (string.IsNullOrEmpty(webPage))
                 {
-                    Logger.Error($"Search result page failed for {urlWithPage}");
+                    Logger.Error($"Search result page {pageNbr} failed for {urlWithPage}");
                 }
                 else
                 {
-                    Logger.Info($"Search result page OK for {urlWithPage}");
+                    Logger.Info($"Search result page {pageNbr} OK for {urlWithPage}");
                 }
                 
 
@@ -118,9 +111,11 @@ namespace Appart
             int appartFound = 0;
             while (!string.IsNullOrEmpty(detailWebPageUrl))
             {
-                detailWebPageUrl = config.Adapter.GetDetailUrl(ref webPage).AddHostIfMissing(url);                
+                detailWebPageUrl = config.Adapter.GetDetailUrl(ref webPage).AddHostIfMissing(url);
+                
                 if (config.Adapter.PageEnded(webPage))
                 {
+                    Logger.Debug($"Break because of PageEnded : {detailWebPageUrl}");
                     break;
                 }
 
@@ -151,7 +146,7 @@ namespace Appart
                     Logger.Error($"Detail Web Page Url not found");
                 }
 
-                if (ConfigLoader.TestMode)
+                if (appartFound > ConfigLoader.TestModeNbrMaxItem)
                 {
                     break;
                 }

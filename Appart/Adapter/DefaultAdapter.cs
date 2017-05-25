@@ -4,6 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Appart.Config;
+using System.Text.RegularExpressions;
 
 namespace Appart.Adapter
 {
@@ -31,29 +33,55 @@ namespace Appart.Adapter
         public virtual void SetAppartInfo(Appartement appart, string webPage, string url)
         {
             var fullWebPage = webPage;
+            var previousSearchBegin = string.Empty;
+            var previousSearchEnd = string.Empty;
+            string searchResu = string.Empty;
             foreach (var item in this.agenceConfig.SearchItems.Values)
             {
                 if (!string.IsNullOrEmpty(item.Begin) && !string.IsNullOrEmpty(item.End))
                 {
                     Logger.Debug($"{appart.WebSite}: Search {item.Key} between '{item.Begin}' and '{item.End}'. Url={url}");
-                    var searchResu = webPage.SearchBetween(@item.Begin, @item.End, out webPage).CleanText();
+                    if (previousSearchBegin != item.Begin && previousSearchEnd != item.End)
+                    {
+                        searchResu = webPage.SearchBetween(@item.Begin, @item.End, out webPage).CleanText();
+                        previousSearchBegin = item.Begin;
+                        previousSearchEnd = item.End;
+                    }
+
+                    string finalSearchResu = string.Empty;
+                    if (item.SearchType == ConfigSearchType.RegexpGroup)
+                    {
+                        var resuMatch = Regex.Match(searchResu, item.Regex);                        
+                        if (resuMatch.Success)
+                        {                            
+                            finalSearchResu = resuMatch.Groups[item.RegexGroupId].Value;
+                        }
+                        else
+                        {
+                            Logger.Error($"Regex match({item.RegexGroupId}) not found in {searchResu} with Regex {item.Regex}");
+                        }
+                    }
+                    else
+                    {
+                        finalSearchResu = searchResu;
+                    }
 
                     switch (item.Key)
                     {
                         case "Ville":
-                            appart.Ville = this.ProcessVilleOrCodePostal(searchResu);
+                            appart.Ville = this.ProcessVilleOrCodePostal(finalSearchResu);
                             break;
                         case "Surface":
-                            appart.Surface = searchResu.ToInt();
+                            appart.Surface = finalSearchResu.ToInt();
                             break;
                         case "Prix":
-                            appart.Prix = searchResu.Replace("€", "").Trim().ToInt();
+                            appart.Prix = finalSearchResu.Replace("€", "").Trim().ToInt();
                             break;
                         case "NbrChambre":
-                            appart.NbrChambre = searchResu.ToInt();
+                            appart.NbrChambre = finalSearchResu.ToInt();
                             break;
                         case "NbrPiece":
-                            appart.NbrPiece = searchResu.ToInt();
+                            appart.NbrPiece = finalSearchResu.ToInt();
                             break;
                     }
 
@@ -62,13 +90,13 @@ namespace Appart.Adapter
                         File.WriteAllText($@"Logs\WebPage-{appart.WebSite}.txt", fullWebPage);
                     }
 
-                    if (string.IsNullOrEmpty(searchResu))
+                    if (string.IsNullOrEmpty(finalSearchResu))
                     {
                         Logger.Error($"   -{item.Key} not found");                        
                     }
                     else
                     {
-                        Logger.Debug($"   -{item.Key}={searchResu}. {appart.AllDataAvailable()} - {appart}");
+                        Logger.Debug($"   -{item.Key}={finalSearchResu}. {appart.AllDataAvailable()} - {appart}");
                     }
                 }
             }
@@ -105,7 +133,8 @@ namespace Appart.Adapter
                 return false;
             }
 
-            return string.IsNullOrEmpty(webPage.SearchLineContain(this.agenceConfig.EndOfPage));
+            return !webPage.Contains(this.agenceConfig.EndOfPage);
+            //return string.IsNullOrEmpty(webPage.SearchLineContain(this.agenceConfig.EndOfPage));
         }
     }
 }
