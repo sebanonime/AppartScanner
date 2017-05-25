@@ -13,32 +13,24 @@ namespace Appart
     public class AppartWebSearcher
     {
         private string webSiteHost;
-        private List<AgenceConfig> config;
+        private AgenceConfig config;
         public List<Appartement> AppartInCache { get; set; }
 
-        public AppartWebSearcher()
+        public AppartWebSearcher(AgenceConfig config, List<Appartement> appartInCache)
         {
             Logger.Debug("Start AppartWeb");
-            var configLoader = new ConfigLoader();
-            this.config = configLoader.LoadConfigFile();
-
-            this.AppartInCache = configLoader.LoadAppartFile();
+            this.config = config;
+            this.AppartInCache = appartInCache;
         }
         
 
-        public List<Appartement> RetrieveAllAppart(string webSite = null)
+        public List<Appartement> RetrieveAllAppart()
         {
             var allAppart = new List<Appartement>();
-            foreach (var config in this.config)
-            {
-                if (string.IsNullOrEmpty(webSite) || config.WebSite == webSite)
-                {
-                    Console.Write("{0}: ", config.WebSite);
-                    var apparts = this.SearchAppartOfWebSite(config);
-                    Console.WriteLine("");
-                    allAppart.AddRange(apparts);
-                }
-            }
+            Console.Write("{0}: ", config.WebSite);
+            var apparts = this.SearchAppartOfWebSite(config);
+            Console.WriteLine("");
+            allAppart.AddRange(apparts);
             
             return allAppart;
         }
