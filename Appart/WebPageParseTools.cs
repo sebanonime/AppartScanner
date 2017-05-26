@@ -43,9 +43,10 @@ namespace Appart
             var myUri = new Uri(fullUrl);
             string host = fullUrl.GetHost();
 
-            if (!input.StartsWith(host))
+            var urlstart = myUri.Scheme + "://" + host;
+            if (!input.Trim().StartsWith(urlstart))
             {
-                input = myUri.Scheme + "://" + host + (input.StartsWith("/") ? "" : "/") + input;
+                input = urlstart + (input.StartsWith("/") ? "" : "/") + input;
             }
 
             return input;
