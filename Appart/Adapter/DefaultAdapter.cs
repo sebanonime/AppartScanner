@@ -41,7 +41,7 @@ namespace Appart.Adapter
                 if (!string.IsNullOrEmpty(item.Begin) && !string.IsNullOrEmpty(item.End))
                 {
                     Logger.Debug($"{appart.WebSite}: Search {item.Key} between '{item.Begin}' and '{item.End}'. Url={url}");
-                    if (previousSearchBegin != item.Begin && previousSearchEnd != item.End)
+                    if (previousSearchBegin != item.Begin || previousSearchEnd != item.End)
                     {
                         searchResu = webPage.SearchBetween(@item.Begin, @item.End, out webPage).CleanText();
                         previousSearchBegin = item.Begin;
