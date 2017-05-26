@@ -1,4 +1,4 @@
-﻿using Appart.Adapter;
+using Appart.Adapter;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -77,7 +77,8 @@ namespace Appart
                     break;
                 }
 
-                if (!TryParseSearchResultWebPage(config, webPage, out List<Appartement> allAppartOfWebPage))
+                List<Appartement> allAppartOfWebPage;
+                if (!TryParseSearchResultWebPage(config, webPage, out allAppartOfWebPage))
                 {
                     break;
                 }
@@ -85,10 +86,10 @@ namespace Appart
                 allAppartOfWebSite.AddRange(allAppartOfWebPage);
                 this.AppartInCache.AddRange(allAppartOfWebPage);
 
-                if (ConfigLoader.TestMode)
-                {
-                    break;
-                }
+                ////if (ConfigLoader.TestMode && string.IsNullOrEmpty(ConfigLoader.WebSiteDetailTest))
+                ////{
+                ////    break;
+                ////}
 
                 if (url.Contains("%PAGE_NBR%"))
                 {
@@ -119,36 +120,45 @@ namespace Appart
                     break;
                 }
 
-                if (!string.IsNullOrEmpty(detailWebPageUrl))
+                if (!string.IsNullOrEmpty(ConfigLoader.WebSiteDetailTest) && detailWebPageUrl == ConfigLoader.WebSiteDetailTest)
                 {
-                    Logger.Debug($"Detail Web Page Url : {detailWebPageUrl}");
-                    if (!allAppart.Any(o => o.UrlDetail == detailWebPageUrl))
-                    {                        
-                        appartFound++;
-                        if (!this.AppartExistInCache(detailWebPageUrl))
+                    if (!string.IsNullOrEmpty(detailWebPageUrl))
+                    {
+                        Logger.Debug($"Detail Web Page Url : {detailWebPageUrl}");
+                        if (!allAppart.Any(o => o.UrlDetail == detailWebPageUrl))
                         {
-                            if (this.TryRetrieveAppartInfo(detailWebPageUrl, config, out Appartement appart))
+                            appartFound++;
+                            if (!this.AppartExistInCache(detailWebPageUrl))
                             {
-                                //if (appart.MatchCriteria())
+                                Appartement appart;
+                                if (this.TryRetrieveAppartInfo(detailWebPageUrl, config, out appart))
                                 {
-                                    allAppart.Add(appart);
+                                    //if (appart.MatchCriteria())
+                                    {
+                                        allAppart.Add(appart);
+                                    }
                                 }
                             }
+                            else
+                            {
+                                Logger.Debug("Appart already in cache");
+                            }
                         }
-                        else
-                        {
-                            Logger.Debug("Appart already in cache");
-                        }
+                    }
+                    else
+                    {
+                        Logger.Error($"Detail Web Page Url not found");
+                    }
+                    
+                    if (appartFound > ConfigLoader.TestModeNbrMaxItem)
+                    {
+                        break;
                     }
                 }
                 else
                 {
-                    Logger.Error($"Detail Web Page Url not found");
-                }
-
-                if (appartFound > ConfigLoader.TestModeNbrMaxItem)
-                {
-                    break;
+                    Logger.Debug($"Ignore page because of Test mode url detail : {detailWebPageUrl}");
+                    appartFound++;
                 }
             }
 
