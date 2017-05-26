@@ -12,6 +12,8 @@ namespace Appart.Config
     public class ConfigLoader
     {
         public static string WebSiteTest { get; }
+        
+        public static string WebSiteDetailTest { get; set; }
 
         public static int TestModeNbrMaxItem { get; }
 
@@ -20,6 +22,7 @@ namespace Appart.Config
         static ConfigLoader()
         {
             WebSiteTest = ConfigurationManager.AppSettings["WebSiteTest"];
+            WebSiteDetailTest = ConfigurationManager.AppSettings["WebSiteDetailTest"];
             TestModeNbrMaxItem = ConfigurationManager.AppSettings["TestModeNbrMaxItem"].ToInt();
         }
 
