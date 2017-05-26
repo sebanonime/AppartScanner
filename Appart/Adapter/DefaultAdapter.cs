@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -40,13 +40,14 @@ namespace Appart.Adapter
             {
                 if (!string.IsNullOrEmpty(item.Begin) && !string.IsNullOrEmpty(item.End))
                 {
-                    Logger.Debug($"{appart.WebSite}: Search {item.Key} between '{item.Begin}' and '{item.End}'. Url={url}");
                     if (previousSearchBegin != item.Begin || previousSearchEnd != item.End)
                     {
-                        searchResu = webPage.SearchBetween(@item.Begin, @item.End, out webPage).CleanText();
+                        searchResu = webPage.SearchBetween(@item.Begin, @item.End, out webPage);
                         previousSearchBegin = item.Begin;
                         previousSearchEnd = item.End;
                     }
+
+                    Logger.Debug($"{appart.WebSite}: Search {item.Key} between '{item.Begin}' and '{item.End}'. Result={searchResu}. Url={url}");
 
                     string finalSearchResu = string.Empty;
                     if (item.SearchType == ConfigSearchType.RegexpGroup)
@@ -65,6 +66,8 @@ namespace Appart.Adapter
                     {
                         finalSearchResu = searchResu;
                     }
+
+                    finalSearchResu = finalSearchResu.CleanText();
 
                     switch (item.Key)
                     {
@@ -114,13 +117,15 @@ namespace Appart.Adapter
 
             };
 
-            if (int.TryParse(villeOrCodePostal, out int codePostal) 
-                && mapping.TryGetValue(codePostal, out string ville))
+            int codePostal;
+            string ville;
+            if (int.TryParse(villeOrCodePostal, out codePostal)
+                && mapping.TryGetValue(codePostal, out ville))
             {
                 return ville;
             }
 
-            var codePostalToRemove = mapping.Keys.Where(o => villeOrCodePostal.Contains(o.ToString())).FirstOrDefault();
+            var codePostalToRemove = mapping.Keys.FirstOrDefault(o => villeOrCodePostal.Contains(o.ToString()));
             villeOrCodePostal = villeOrCodePostal.Replace(codePostalToRemove.ToString(), "");
 
             return villeOrCodePostal.ToUpper().Replace("-", " ").CleanText();
