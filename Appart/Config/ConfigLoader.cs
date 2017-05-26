@@ -91,6 +91,8 @@ namespace Appart.Config
                     return new AdapterWithSearchBetween(agenceConfig);
                 case "AgencesopportunityAdapter":
                     return new AgencesopportunityAdapter(agenceConfig);
+                case "OrpiAdapter":
+                    return new OrpiAdapter(agenceConfig);
             }
 
             return null;
