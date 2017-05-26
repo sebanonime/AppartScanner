@@ -1,0 +1,32 @@
+﻿########Adapter
+OrpiAdapter
+########Encoding
+UTF-8
+########SearchResultUrl
+https://www.orpi.com/recherche/buy?realEstateTypes%5B%5D=maison&realEstateTypes%5B%5D=appartement&realEstateTypes%5B%5D=terrain&locations%5B%5D=fontenay-sous-bois&locations%5B%5D=vincennes&locations%5B%5D=nogent-sur-marne&locations%5B%5D=montreuil&locations%5B%5D=saint-mande&minSurface=85&nbRooms%5B%5D=4&nbRooms%5B%5D=5&nbRooms%5B%5D=6&maxPrice=850500000&sort=date-down&layoutType=list
+########DetailUrl
+,"slug":"
+
+########EndOfPage
+
+########Prix
+<span class="price">
+ €</span>
+########NbrPiece[RegexpGroup]
+<div class="surface">
+</div>
+.*<b>(\d{1}).*pièces.*
+1
+########NbrChambre[RegexpGroup]
+<div class="surface">
+</div>
+.*<b>(\d{1}).*chambres.*
+1
+########Surface[RegexpGroup]
+<div class="surface">
+</div>
+.*<b>(.*)<\/b>.*m<sup>2
+1
+########Ville
+<address class="address">
+</address>
