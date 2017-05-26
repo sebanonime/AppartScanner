@@ -47,7 +47,7 @@ namespace Appart.Adapter
                         previousSearchEnd = item.End;
                     }
 
-                    Logger.Debug($"{appart.WebSite}: Search {item.Key} between '{item.Begin}' and '{item.End}'. Result={searchResu}. Url={url}");
+                    Logger.Info($"{appart.WebSite}: Search {item.Key} between '{item.Begin}' and '{item.End}'. Result={searchResu}. Url={url}");
 
                     string finalSearchResu = string.Empty;
                     if (item.SearchType == ConfigSearchType.RegexpGroup)
@@ -99,7 +99,7 @@ namespace Appart.Adapter
                     }
                     else
                     {
-                        Logger.Debug($"   -{item.Key}={finalSearchResu}. {appart.AllDataAvailable()} - {appart}");
+                        Logger.Info($"   -{item.Key}={finalSearchResu}. {appart.AllDataAvailable()} - {appart}");
                     }
                 }
             }

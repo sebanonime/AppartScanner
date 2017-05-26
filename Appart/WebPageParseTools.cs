@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -65,7 +66,7 @@ namespace Appart
 
         public static int ToInt(this string input)
         {
-            if(double.TryParse(input.Replace(" ", ""), out double result))
+            if (double.TryParse(input.Replace(" ", ""), NumberStyles.Number, CultureInfo.InvariantCulture, out double result))
             {
                 return (int)result;
             }
