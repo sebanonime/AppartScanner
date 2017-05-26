@@ -120,7 +120,7 @@ namespace Appart
                     break;
                 }
 
-                if (!string.IsNullOrEmpty(ConfigLoader.WebSiteDetailTest) && detailWebPageUrl == ConfigLoader.WebSiteDetailTest)
+                if (string.IsNullOrEmpty(ConfigLoader.WebSiteDetailTest) || detailWebPageUrl == ConfigLoader.WebSiteDetailTest)
                 {
                     if (!string.IsNullOrEmpty(detailWebPageUrl))
                     {
