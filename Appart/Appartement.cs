@@ -26,7 +26,7 @@ namespace Appart
 
         public DateTime Date { get; set; }
 
-        public bool ToCheck { get; set; }
+        public string Comments { get; set; }
 
         public bool AllDataAvailable()
         {
@@ -57,17 +57,17 @@ namespace Appart
         
         public static string GetHeader()
         {
-            return $"Ville; Prix; Surface; NbrChambre; NbrPiece; Date; MatchCriteria; WebSite; ToCheck; UrlDetail";
+            return $"Ville; Prix; Surface; NbrChambre; NbrPiece; Date; MatchCriteria; WebSite; Comments; UrlDetail";
         }
 
         public override string ToString()
         {
-            return $"Ville={Ville}, Prix={Prix}, Surface={Surface}, NbrChambre={NbrChambre}, NbrPiece={NbrPiece}, WebSite={WebSite}, ToCheck={ToCheck}, UrlDetail={UrlDetail}";
+            return $"Ville={Ville}, Prix={Prix}, Surface={Surface}, NbrChambre={NbrChambre}, NbrPiece={NbrPiece}, WebSite={WebSite}, Comments={Comments}, UrlDetail={UrlDetail}";
         }
 
         public string ToCsv()
         {
-            return $"{Ville}; {Prix}; {Surface}; {NbrChambre}; {NbrPiece}; {Date}; {MatchCriteria}; {WebSite}; {ToCheck}; {UrlDetail}";
+            return $"{Ville}; {Prix}; {Surface}; {NbrChambre}; {NbrPiece}; {Date}; {MatchCriteria}; {WebSite}; {Comments}; {UrlDetail}";
         }
     }
 }

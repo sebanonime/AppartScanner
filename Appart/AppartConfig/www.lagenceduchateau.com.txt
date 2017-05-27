@@ -13,7 +13,7 @@ http://www.lagenceduchateau.com/a-vendre/%PAGE_NBR%
 Code postal <span class="valueInfos">
 </span>
 ##Surface
-Surface loi Carrez (m²) <span class="valueInfos">
+Surface habitable (m²) <span class="valueInfos">
 </span>
 ##NbrChambre
 Nombre de chambre(s) <span class="valueInfos">

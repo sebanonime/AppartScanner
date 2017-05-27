@@ -43,7 +43,7 @@ namespace Appart.Config
         {            
             var agenceConfig = new AgenceConfig();
             agenceConfig.WebSite = file.Name.Replace(".txt","");
-            var allLines = File.ReadAllLines(file.FullName, Encoding.Default);
+            var allLines = File.ReadAllLines(file.FullName, Encoding.UTF8);
             var adapterName = allLines[1];
             agenceConfig.Encoding = allLines[3];
             agenceConfig.SearchResultUrl = allLines[5];
@@ -120,7 +120,7 @@ namespace Appart.Config
                     appart.NbrPiece = splittedLines[4].Trim().ToInt();
                     appart.Date = splittedLines[5].Trim().ToDate();
                     appart.WebSite = splittedLines[7].Trim();
-                    appart.ToCheck = splittedLines[8].Trim().ToBool();
+                    appart.Comments = splittedLines[8].Trim();
                     appart.UrlDetail = splittedLines[9].Trim();
 
                     resu.Add(appart);

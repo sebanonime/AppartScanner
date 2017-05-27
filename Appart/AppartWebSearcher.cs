@@ -175,7 +175,7 @@ namespace Appart
 
             Logger.Info($"Detail web page found: {url}");
             appart = new Appartement();
-            appart.ToCheck = true;
+            appart.Comments = "ToCheck";
             appart.WebSite = url.GetHost();
             appart.UrlDetail = url;
             appart.Date = DateTime.Now;
